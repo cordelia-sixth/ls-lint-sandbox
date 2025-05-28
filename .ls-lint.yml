@@ -1,0 +1,9 @@
+# リントしたいファイル、ディレクトリ
+ls:
+  .js: kebab-case
+  .tsx: kebab-case
+  .dir: kebab-case
+# リントを無視したいファイル、ディレクトリ
+ignore:
+  - .git
+  - node_modules
