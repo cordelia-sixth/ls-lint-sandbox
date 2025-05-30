@@ -1,8 +1,8 @@
 # リントしたいファイル、ディレクトリ
 ls:
-  .js: kebab-case | camelCase
-  .tsx: kebab-case
-  .dir: kebab-case
+  components/*:
+    .ts: kebab-case
+
 # リントを無視したいファイル、ディレクトリ
 ignore:
   - .git
