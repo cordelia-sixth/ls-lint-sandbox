@@ -1,7 +1,7 @@
 # リントしたいファイル、ディレクトリ
 ls:
   components/*:
-    .ts: kebab-case
+    .ts: kebab-case | exists:1
 
 # リントを無視したいファイル、ディレクトリ
 ignore:
